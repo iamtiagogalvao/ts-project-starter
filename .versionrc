@@ -1,0 +1,15 @@
+{
+  "types": [
+    { "type": "feat", "section": "🥇 Features" },
+    { "type": "fix", "section": "🚩 Bug Fixes" },
+    { "type": "docs", "hidden": true },
+    { "type": "style", "section": "🛠️ Code Improvements" },
+    { "type": "refactor", "section": "🛠️ Code Improvements" },
+    { "type": "perf", "section": "⏱️ Performance Improvements" },
+    { "type": "test", "hidden": true },
+    { "type": "build", "hidden": true },
+    { "type": "ci", "hidden": true },
+    { "type": "chore", "hidden": true },
+    { "type": "revert", "hidden": true }
+  ]
+}

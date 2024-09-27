@@ -1,0 +1,51 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Tiago M. Galvao",
+  "license": "ISC",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "release": "standard-version",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@eslint/js": "^9.11.1",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.3",
+    "@typescript-eslint/eslint-plugin": "8.7.0",
+    "@typescript-eslint/parser": "8.7.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "9.11.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsdoc": "^50.3.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "globals": "^15.9.0",
+    "husky": "9.1.6",
+    "jest": "^29.7.0",
+    "prettier": "3.3.3",
+    "standard-version": "9.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "5.6.2",
+    "typescript-eslint": "8.7.0"
+  },
+  "dependencies": {}
+}
